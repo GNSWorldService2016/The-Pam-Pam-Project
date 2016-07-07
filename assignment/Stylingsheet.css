@@ -1,0 +1,69 @@
+
+/* 
+*all headings and paragraphs in the same font 
+*/
+h1,h2,h3,h4,p,tr{font-family: "Calibri", "Arial Black" ;}
+
+/*
+*Background
+*/
+body {background-image: url(logo.jpg);
+					background-repeat:no repeat}
+/*
+*Headings sizes and colours and alignment
+*/
+			h1{
+				text-align:center;
+				font-size: 5em;
+		    	color: orange;
+			}
+			
+  			h2{		
+				text-align:center;
+				font-size: 2em;
+				color: white;
+				}
+			h3{ 
+				font-size: 1.5em;
+				text-align:center;
+				color: white;
+			}
+			h4{
+				text-align:center;
+				color: white;
+			}
+/*
+*Paragrapghs
+*/		
+			p{ 
+				font-size: 1.1em;
+				color:white;
+			}
+/*
+*Table	
+*/
+	table, td, th{
+				border:2px solid orange;
+				}
+			th
+				{
+				background-color:orange;
+				color:white;
+				}
+				
+			tr{
+				color: white;
+				}
+				
+/*
+*box model-fieldset forms
+*/			
+			fieldset{
+					width:90%;
+					padding:5px;
+					border:8px solid orange;
+					margin:5px;
+				}
+				
+
+.
